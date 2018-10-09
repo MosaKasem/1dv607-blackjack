@@ -34,7 +34,15 @@ namespace model
 
         internal bool Stand()
         {
-            throw new NotImplementedException();
+            if (m_deck != null)
+            {
+                // this.ShowHand();
+                foreach(Card c in this.GetHand())
+                {
+                    c.Show(true);
+                }
+            }
+            return false;
         }
 
         public bool Hit(Player a_player)

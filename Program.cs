@@ -19,7 +19,7 @@ namespace BlackJack
             }
             catch (Exception Ex)
             {
-                WriteLine($"Something's gone horribly wrong!: {Ex}");
+                WriteLine($"Something's gone horribly wrong!: {Ex.Message}");
             }
         }
     }

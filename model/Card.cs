@@ -65,9 +65,9 @@ namespace model
             return m_value;
         }
 
-        public void Show(bool a_show)
+        public bool Show(bool a_show)
         {
-            m_isHidden = !a_show;
+            return m_isHidden = !a_show;
         }
     }
 }
