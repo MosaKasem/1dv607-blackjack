@@ -1,0 +1,11 @@
+C:\Users\Mosa\1dv607\1dv607-assignment-3-blackjack\1dv607-blackjack\bin\Debug\netcoreapp2.0\1dv607-blackjack.deps.json
+C:\Users\Mosa\1dv607\1dv607-assignment-3-blackjack\1dv607-blackjack\bin\Debug\netcoreapp2.0\1dv607-blackjack.runtimeconfig.json
+C:\Users\Mosa\1dv607\1dv607-assignment-3-blackjack\1dv607-blackjack\bin\Debug\netcoreapp2.0\1dv607-blackjack.runtimeconfig.dev.json
+C:\Users\Mosa\1dv607\1dv607-assignment-3-blackjack\1dv607-blackjack\bin\Debug\netcoreapp2.0\1dv607-blackjack.dll
+C:\Users\Mosa\1dv607\1dv607-assignment-3-blackjack\1dv607-blackjack\bin\Debug\netcoreapp2.0\1dv607-blackjack.pdb
+C:\Users\Mosa\1dv607\1dv607-assignment-3-blackjack\1dv607-blackjack\obj\Debug\netcoreapp2.0\1dv607-blackjack.csprojAssemblyReference.cache
+C:\Users\Mosa\1dv607\1dv607-assignment-3-blackjack\1dv607-blackjack\obj\Debug\netcoreapp2.0\1dv607-blackjack.csproj.CoreCompileInputs.cache
+C:\Users\Mosa\1dv607\1dv607-assignment-3-blackjack\1dv607-blackjack\obj\Debug\netcoreapp2.0\1dv607-blackjack.AssemblyInfoInputs.cache
+C:\Users\Mosa\1dv607\1dv607-assignment-3-blackjack\1dv607-blackjack\obj\Debug\netcoreapp2.0\1dv607-blackjack.AssemblyInfo.cs
+C:\Users\Mosa\1dv607\1dv607-assignment-3-blackjack\1dv607-blackjack\obj\Debug\netcoreapp2.0\1dv607-blackjack.dll
+C:\Users\Mosa\1dv607\1dv607-assignment-3-blackjack\1dv607-blackjack\obj\Debug\netcoreapp2.0\1dv607-blackjack.pdb
