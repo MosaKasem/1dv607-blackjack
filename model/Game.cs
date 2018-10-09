@@ -38,8 +38,9 @@ namespace model
 
         public bool Stand()
         {
+            return m_dealer.Stand();
             // TODO: Implement this according to Game_Stand.sequencediagram
-            return true;
+            // return true;
         }
 
         public IEnumerable<Card> GetDealerHand()

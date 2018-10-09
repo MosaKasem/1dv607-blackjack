@@ -32,6 +32,11 @@ namespace model
             return false;
         }
 
+        internal bool Stand()
+        {
+            throw new NotImplementedException();
+        }
+
         public bool Hit(Player a_player)
         {
             if (m_deck != null && a_player.CalcScore() < g_maxScore && !IsGameOver())
