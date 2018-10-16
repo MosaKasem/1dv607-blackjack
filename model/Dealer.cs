@@ -39,7 +39,9 @@ namespace model
                 ShowHand();
                 while(m_hitRule.DoHit(this))
                 {
-                    DealCard(m_deck.GetCard());
+                    Card a_card = m_deck.GetCard();
+                    a_card.Show(true);
+                    DealCard(a_card);
                 }
             }
             return false;
