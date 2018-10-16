@@ -36,10 +36,10 @@ namespace model
         {
             if (m_deck != null)
             {
-                // this.ShowHand();
-                foreach(Card c in this.GetHand())
+                ShowHand();
+                while(m_hitRule.DoHit(this))
                 {
-                    c.Show(true);
+                    DealCard(m_deck.GetCard());
                 }
             }
             return false;
