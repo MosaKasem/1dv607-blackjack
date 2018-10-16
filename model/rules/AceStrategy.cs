@@ -7,9 +7,11 @@ namespace model.rules
 {
     class AceStrategy
     {
-/*         public bool IfAce(Dealer dealer)
+        public bool IfAce(Dealer dealer)
         {
-            if (dealer.IsDealerWinner
-        } */
+            if (dealer.GetHand().Select(x => x.GetValue() == Value.Ace) {
+
+            }
+        }
     }
 }

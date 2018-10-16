@@ -52,6 +52,7 @@ namespace model
             if (m_deck != null && a_player.CalcScore() < g_maxScore && !IsGameOver())
             {
                 Card c;
+                
                 c = m_deck.GetCard();
                 c.Show(true);
                 a_player.DealCard(c);
