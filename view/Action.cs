@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace view.Action
+namespace view
 {
-    public enum Action
+    public enum EventInit
     {
         Play,
         Hit,
         Stand,
-        Quit
+        Quit,
+        Null
     }
 }
