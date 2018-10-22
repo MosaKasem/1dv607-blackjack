@@ -19,7 +19,7 @@ namespace controller
                 a_view.DisplayGameOver(a_game.IsDealerWinner());
             }
 
-            int input = a_view.GetInput();
+            Action input = a_view.GetInput();
 
             if (input == 'p')
             {
