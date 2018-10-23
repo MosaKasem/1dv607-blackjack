@@ -14,9 +14,21 @@ namespace view
             System.Console.WriteLine("----------------------");
             System.Console.WriteLine("Skriv 'p' för att Spela, 'h' för nytt kort, 's' för att stanna 'a' för att avsluta\n");
         }
-        public int GetInput()
+        public EventInit GetInput()
         {
-            return System.Console.In.Read();
+            switch(System.Console.In.Read())
+            {
+                case 'p':
+                return EventInit.Play;
+                case 'h':
+                return EventInit.Hit;
+                case 's':
+                return EventInit.Stand;
+                case 'a':
+                return EventInit.Quit;
+                default:
+                return EventInit.Null;
+            }
         }
         public void DisplayCard(model.Card a_card)
         {
