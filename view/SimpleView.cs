@@ -15,9 +15,22 @@ namespace view
             System.Console.WriteLine("Type 'p' to Play, 'h' to Hit, 's' to Stand or 'q' to Quit\n");
         }
 
-        public int GetInput()
+        public EventInit GetInput()
         {
-            return System.Console.In.Read();
+            switch(System.Console.In.Read())
+            {
+                case 'p':
+                return EventInit.Play;
+                case 'h':
+                return EventInit.Hit;
+                case 's':
+                return EventInit.Stand;
+                case 'q':
+                return EventInit.Quit;
+                default:
+                return EventInit.Null;
+
+            }
         }
 
         public void DisplayCard(model.Card a_card)
