@@ -29,7 +29,6 @@ namespace view
                 return EventInit.Quit;
                 default:
                 return EventInit.Null;
-
             }
         }
 

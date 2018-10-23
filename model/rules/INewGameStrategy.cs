@@ -9,14 +9,15 @@ namespace model.rules
     {
         bool NewGame(Deck a_deck, Dealer a_dealer, Player a_player);
     }
-    abstract class GameStrategy
+    abstract class GameStrategy : INewGameStrategy
     {
-        public void DealCard(Deck a_deck, Dealer a_dealer, Player a_player)
+        public abstract bool NewGame(Deck a_deck, Dealer a_dealer, Player a_player);
+/*         public void DealCard(Deck a_deck, Dealer a_dealer, Player a_player)
         {
             Card c;
             c = a_deck.GetCard();
             c.Show(true);
             a_player.DealCard(c);
-        }
+        } */
     }
 }
