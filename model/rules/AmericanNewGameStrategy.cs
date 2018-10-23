@@ -5,11 +5,13 @@ using System.Text;
 
 namespace model.rules
 {
-    class AmericanNewGameStrategy : INewGameStrategy
+    class AmericanNewGameStrategy : GameStrategy
     {
         public bool NewGame(Deck a_deck, Dealer a_dealer, Player a_player)
         {
-            Card c;
+            DealCard(a_deck)
+            return true;
+/*             Card c;
 
             c = a_deck.GetCard();
             c.Show(true);
@@ -27,7 +29,7 @@ namespace model.rules
             c.Show(false);
             a_dealer.DealCard(c);
 
-            return true;
+            return true; */
         }
     }
 }

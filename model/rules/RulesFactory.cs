@@ -10,6 +10,7 @@ namespace model.rules
         public IHitStrategy GetHitRule()
         {
             return new BasicHitStrategy();
+            // return new Soft17HitStrategy();
         }
 
         public INewGameStrategy GetNewGameRule()
