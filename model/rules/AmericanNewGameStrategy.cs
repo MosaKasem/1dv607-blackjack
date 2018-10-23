@@ -7,8 +7,12 @@ namespace model.rules
 {
     class AmericanNewGameStrategy : GameStrategy
     {
-        override bool NewGame(Deck a_deck, Dealer a_dealer, Player a_player)
+        override public bool NewGame(Deck a_deck, Dealer a_dealer, Player a_player)
         {
+            DealCard(a_deck, a_player);
+            DealCard(a_deck, a_dealer);
+            DealCard(a_deck, a_player);
+            DealCard(a_deck, a_dealer);
             return true;
 /*             Card c;
 
