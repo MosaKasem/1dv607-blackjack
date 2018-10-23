@@ -5,7 +5,7 @@ using System.Text;
 
 namespace view
 {
-    public enum EventInit
+    public enum InputType
     {
         Play,
         Hit,

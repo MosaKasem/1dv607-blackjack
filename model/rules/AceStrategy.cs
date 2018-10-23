@@ -10,7 +10,7 @@ namespace model.rules
 /*         public bool IfAce(Dealer dealer)
         {
             if (dealer.GetHand().Select(x => x.GetValue() == Card.GetValue(Ace)) {
-                TODO: ASK TOBBE ABOUT THIS...
+                
             }
         } */
     }

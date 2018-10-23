@@ -19,22 +19,22 @@ namespace controller
                 a_view.DisplayGameOver(a_game.IsDealerWinner());
             }
 
-            view.EventInit input = a_view.GetInput();
+            view.InputType input = a_view.GetInput();
 
-            if (input == view.EventInit.Play)
+            if (input == view.InputType.Play)
             {
                 a_game.NewGame();
             }
-            else if (input == view.EventInit.Hit)
+            else if (input == view.InputType.Hit)
             {
                 a_game.Hit();
             }
-            else if (input == view.EventInit.Stand)
+            else if (input == view.InputType.Stand)
             {
                 a_game.Stand();
             }
 
-            return input != view.EventInit.Quit;
+            return input != view.InputType.Quit;
         }
     }
 }

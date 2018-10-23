@@ -15,20 +15,20 @@ namespace view
             System.Console.WriteLine("Type 'p' to Play, 'h' to Hit, 's' to Stand or 'q' to Quit\n");
         }
 
-        public EventInit GetInput()
+        public InputType GetInput()
         {
             switch(System.Console.In.Read())
             {
                 case 'p':
-                return EventInit.Play;
+                return InputType.Play;
                 case 'h':
-                return EventInit.Hit;
+                return InputType.Hit;
                 case 's':
-                return EventInit.Stand;
+                return InputType.Stand;
                 case 'q':
-                return EventInit.Quit;
+                return InputType.Quit;
                 default:
-                return EventInit.Null;
+                return InputType.Null;
             }
         }
 

@@ -5,12 +5,15 @@ using System.Text;
 
 namespace model.rules
 {
-    class InternationalNewGameStrategy : INewGameStrategy
+    class InternationalNewGameStrategy : GameStrategy
     {
-
-        public bool NewGame(Deck a_deck, Dealer a_dealer, Player a_player)
+        override public bool NewGame(Deck a_deck, Dealer a_dealer, Player a_player)
         {
-            Card c;
+            DealCard(a_deck, a_player);
+            DealCard(a_deck, a_dealer);
+            DealCard(a_deck, a_player);
+            return true;
+/*             Card c;
 
             c = a_deck.GetCard();
             c.Show(true);
@@ -24,7 +27,7 @@ namespace model.rules
             c.Show(true);
             a_player.DealCard(c);
 
-            return true;
+            return true; */
         }
     }
 }
