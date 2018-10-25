@@ -17,5 +17,9 @@ namespace model.rules
         {
             return new AmericanNewGameStrategy();
         }
+        public IGameWinnerStrategy GetGameWinnerStrategy()
+        {
+            return "bla";
+        }
     }
 }
