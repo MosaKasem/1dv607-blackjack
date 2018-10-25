@@ -7,7 +7,7 @@ namespace model.rules
 {
     class DealerWinStrategy : IGameWinnerStrategy
     {
-        bool IsDealerWinner(Dealer a_dealer, Player a_player, int maxScore)
+        public bool IsDealerWinner(Dealer a_dealer, Player a_player, int maxScore)
         {
 
             if (a_player.CalcScore() > maxScore)
