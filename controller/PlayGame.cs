@@ -33,7 +33,6 @@ namespace controller
             {
                 a_game.Stand();
             }
-
             return input != view.InputType.Quit;
         }
     }
