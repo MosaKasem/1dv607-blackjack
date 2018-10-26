@@ -19,7 +19,7 @@ namespace model.rules
         }
         public IGameWinnerStrategy GetGameWinnerStrategy()
         {
-            return "bla";
+            return new DealerWinStrategy();
         }
     }
 }

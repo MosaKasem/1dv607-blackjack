@@ -5,8 +5,12 @@ using System.Text;
 
 namespace controller
 {
-    class PlayGame
+    class PlayGame : model.IGameObserver
     {
+        public PlayGame()
+        {
+            
+        }
         public bool Play(model.Game a_game, view.IView a_view)
         {
             a_view.DisplayWelcomeMessage();
